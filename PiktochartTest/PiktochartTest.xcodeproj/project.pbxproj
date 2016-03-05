@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCED25221C61D2BD00D77017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED25211C61D2BD00D77017 /* main.m */; };
+		DCED252B1C61D2BD00D77017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCED25291C61D2BD00D77017 /* Main.storyboard */; };
+		DCED252E1C61D2BD00D77017 /* PiktochartTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCED252C1C61D2BD00D77017 /* PiktochartTest.xcdatamodeld */; };
+		DCED25301C61D2BD00D77017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCED252F1C61D2BD00D77017 /* Assets.xcassets */; };
+		DCED25331C61D2BD00D77017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCED25311C61D2BD00D77017 /* LaunchScreen.storyboard */; };
+		DCED253E1C61D2BD00D77017 /* PiktochartTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED253D1C61D2BD00D77017 /* PiktochartTestTests.m */; };
+		DCED25491C61D2BD00D77017 /* PiktochartTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED25481C61D2BD00D77017 /* PiktochartTestUITests.m */; };
+		DCED255D1C61D51600D77017 /* JSONFile.json in Resources */ = {isa = PBXBuildFile; fileRef = DCED255C1C61D51600D77017 /* JSONFile.json */; };
+		DCED25601C61D56F00D77017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED255F1C61D56F00D77017 /* AppDelegate.m */; };
+		DCED25631C61D57500D77017 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED25621C61D57500D77017 /* ViewController.m */; };
+		DCED25671C61E43400D77017 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED25661C61E43400D77017 /* DraggableView.m */; };
+		DCED25691C61E59900D77017 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = DCED25681C61E59900D77017 /* test.png */; };
+		DCED256D1C61F43800D77017 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED256C1C61F43800D77017 /* JSONParser.m */; };
+		DCED25741C62005000D77017 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED25731C62005000D77017 /* UIColor+HexColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCED253A1C61D2BD00D77017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCED25151C61D2BC00D77017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCED251C1C61D2BC00D77017;
+			remoteInfo = PiktochartTest;
+		};
+		DCED25451C61D2BD00D77017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCED25151C61D2BC00D77017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCED251C1C61D2BC00D77017;
+			remoteInfo = PiktochartTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC8B1CF61C6477B000656850 /* PiktochartTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PiktochartTest-Prefix.pch"; sourceTree = "<group>"; };
+		DCED251D1C61D2BC00D77017 /* PiktochartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiktochartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCED25211C61D2BD00D77017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCED252A1C61D2BD00D77017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCED252D1C61D2BD00D77017 /* PiktochartTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PiktochartTest.xcdatamodel; sourceTree = "<group>"; };
+		DCED252F1C61D2BD00D77017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCED25321C61D2BD00D77017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCED25341C61D2BD00D77017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCED25391C61D2BD00D77017 /* PiktochartTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiktochartTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCED253D1C61D2BD00D77017 /* PiktochartTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiktochartTestTests.m; sourceTree = "<group>"; };
+		DCED253F1C61D2BD00D77017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCED25441C61D2BD00D77017 /* PiktochartTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiktochartTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCED25481C61D2BD00D77017 /* PiktochartTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiktochartTestUITests.m; sourceTree = "<group>"; };
+		DCED254A1C61D2BD00D77017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCED255C1C61D51600D77017 /* JSONFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JSONFile.json; sourceTree = "<group>"; };
+		DCED255E1C61D56F00D77017 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCED255F1C61D56F00D77017 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCED25611C61D57500D77017 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCED25621C61D57500D77017 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCED25651C61E43400D77017 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		DCED25661C61E43400D77017 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		DCED25681C61E59900D77017 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		DCED256B1C61F43800D77017 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		DCED256C1C61F43800D77017 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
+		DCED25721C62005000D77017 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		DCED25731C62005000D77017 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCED251A1C61D2BC00D77017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED25361C61D2BD00D77017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED25411C61D2BD00D77017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCED25141C61D2BC00D77017 = {
+			isa = PBXGroup;
+			children = (
+				DCED251F1C61D2BC00D77017 /* PiktochartTest */,
+				DCED253C1C61D2BD00D77017 /* PiktochartTestTests */,
+				DCED25471C61D2BD00D77017 /* PiktochartTestUITests */,
+				DCED251E1C61D2BC00D77017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCED251E1C61D2BC00D77017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCED251D1C61D2BC00D77017 /* PiktochartTest.app */,
+				DCED25391C61D2BD00D77017 /* PiktochartTestTests.xctest */,
+				DCED25441C61D2BD00D77017 /* PiktochartTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCED251F1C61D2BC00D77017 /* PiktochartTest */ = {
+			isa = PBXGroup;
+			children = (
+				DCED25681C61E59900D77017 /* test.png */,
+				DCED25561C61D3A100D77017 /* Model */,
+				DCED25581C61D3B600D77017 /* View */,
+				DCED25571C61D3AE00D77017 /* Controller */,
+				DCED25291C61D2BD00D77017 /* Main.storyboard */,
+				DCED252F1C61D2BD00D77017 /* Assets.xcassets */,
+				DCED25311C61D2BD00D77017 /* LaunchScreen.storyboard */,
+				DCED25341C61D2BD00D77017 /* Info.plist */,
+				DCED252C1C61D2BD00D77017 /* PiktochartTest.xcdatamodeld */,
+				DCED25201C61D2BD00D77017 /* Supporting Files */,
+			);
+			path = PiktochartTest;
+			sourceTree = "<group>";
+		};
+		DCED25201C61D2BD00D77017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCED255B1C61D43100D77017 /* Resource */,
+				DCED25211C61D2BD00D77017 /* main.m */,
+				DC8B1CF61C6477B000656850 /* PiktochartTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCED253C1C61D2BD00D77017 /* PiktochartTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCED253D1C61D2BD00D77017 /* PiktochartTestTests.m */,
+				DCED253F1C61D2BD00D77017 /* Info.plist */,
+			);
+			path = PiktochartTestTests;
+			sourceTree = "<group>";
+		};
+		DCED25471C61D2BD00D77017 /* PiktochartTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCED25481C61D2BD00D77017 /* PiktochartTestUITests.m */,
+				DCED254A1C61D2BD00D77017 /* Info.plist */,
+			);
+			path = PiktochartTestUITests;
+			sourceTree = "<group>";
+		};
+		DCED25561C61D3A100D77017 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCED256E1C61FF2600D77017 /* Color */,
+				DCED256A1C61F41200D77017 /* JSONHandler */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCED25571C61D3AE00D77017 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCED255A1C61D3F600D77017 /* AppDelegate */,
+				DCED25591C61D3EC00D77017 /* RooViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCED25581C61D3B600D77017 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCED25641C61E41A00D77017 /* DraggableView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCED25591C61D3EC00D77017 /* RooViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCED25611C61D57500D77017 /* ViewController.h */,
+				DCED25621C61D57500D77017 /* ViewController.m */,
+			);
+			path = RooViewController;
+			sourceTree = "<group>";
+		};
+		DCED255A1C61D3F600D77017 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DCED255E1C61D56F00D77017 /* AppDelegate.h */,
+				DCED255F1C61D56F00D77017 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DCED255B1C61D43100D77017 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DCED255C1C61D51600D77017 /* JSONFile.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DCED25641C61E41A00D77017 /* DraggableView */ = {
+			isa = PBXGroup;
+			children = (
+				DCED25651C61E43400D77017 /* DraggableView.h */,
+				DCED25661C61E43400D77017 /* DraggableView.m */,
+			);
+			path = DraggableView;
+			sourceTree = "<group>";
+		};
+		DCED256A1C61F41200D77017 /* JSONHandler */ = {
+			isa = PBXGroup;
+			children = (
+				DCED256B1C61F43800D77017 /* JSONParser.h */,
+				DCED256C1C61F43800D77017 /* JSONParser.m */,
+			);
+			path = JSONHandler;
+			sourceTree = "<group>";
+		};
+		DCED256E1C61FF2600D77017 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				DCED25721C62005000D77017 /* UIColor+HexColor.h */,
+				DCED25731C62005000D77017 /* UIColor+HexColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCED251C1C61D2BC00D77017 /* PiktochartTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCED254D1C61D2BD00D77017 /* Build configuration list for PBXNativeTarget "PiktochartTest" */;
+			buildPhases = (
+				DCED25191C61D2BC00D77017 /* Sources */,
+				DCED251A1C61D2BC00D77017 /* Frameworks */,
+				DCED251B1C61D2BC00D77017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiktochartTest;
+			productName = PiktochartTest;
+			productReference = DCED251D1C61D2BC00D77017 /* PiktochartTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCED25381C61D2BD00D77017 /* PiktochartTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCED25501C61D2BD00D77017 /* Build configuration list for PBXNativeTarget "PiktochartTestTests" */;
+			buildPhases = (
+				DCED25351C61D2BD00D77017 /* Sources */,
+				DCED25361C61D2BD00D77017 /* Frameworks */,
+				DCED25371C61D2BD00D77017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCED253B1C61D2BD00D77017 /* PBXTargetDependency */,
+			);
+			name = PiktochartTestTests;
+			productName = PiktochartTestTests;
+			productReference = DCED25391C61D2BD00D77017 /* PiktochartTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCED25431C61D2BD00D77017 /* PiktochartTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCED25531C61D2BD00D77017 /* Build configuration list for PBXNativeTarget "PiktochartTestUITests" */;
+			buildPhases = (
+				DCED25401C61D2BD00D77017 /* Sources */,
+				DCED25411C61D2BD00D77017 /* Frameworks */,
+				DCED25421C61D2BD00D77017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCED25461C61D2BD00D77017 /* PBXTargetDependency */,
+			);
+			name = PiktochartTestUITests;
+			productName = PiktochartTestUITests;
+			productReference = DCED25441C61D2BD00D77017 /* PiktochartTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCED25151C61D2BC00D77017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vishal Mishra, Gagan";
+				TargetAttributes = {
+					DCED251C1C61D2BC00D77017 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DCED25381C61D2BD00D77017 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCED251C1C61D2BC00D77017;
+					};
+					DCED25431C61D2BD00D77017 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCED251C1C61D2BC00D77017;
+					};
+				};
+			};
+			buildConfigurationList = DCED25181C61D2BC00D77017 /* Build configuration list for PBXProject "PiktochartTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCED25141C61D2BC00D77017;
+			productRefGroup = DCED251E1C61D2BC00D77017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCED251C1C61D2BC00D77017 /* PiktochartTest */,
+				DCED25381C61D2BD00D77017 /* PiktochartTestTests */,
+				DCED25431C61D2BD00D77017 /* PiktochartTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCED251B1C61D2BC00D77017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCED255D1C61D51600D77017 /* JSONFile.json in Resources */,
+				DCED25691C61E59900D77017 /* test.png in Resources */,
+				DCED25331C61D2BD00D77017 /* LaunchScreen.storyboard in Resources */,
+				DCED25301C61D2BD00D77017 /* Assets.xcassets in Resources */,
+				DCED252B1C61D2BD00D77017 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED25371C61D2BD00D77017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED25421C61D2BD00D77017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCED25191C61D2BC00D77017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCED252E1C61D2BD00D77017 /* PiktochartTest.xcdatamodeld in Sources */,
+				DCED25741C62005000D77017 /* UIColor+HexColor.m in Sources */,
+				DCED25221C61D2BD00D77017 /* main.m in Sources */,
+				DCED256D1C61F43800D77017 /* JSONParser.m in Sources */,
+				DCED25631C61D57500D77017 /* ViewController.m in Sources */,
+				DCED25601C61D56F00D77017 /* AppDelegate.m in Sources */,
+				DCED25671C61E43400D77017 /* DraggableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED25351C61D2BD00D77017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCED253E1C61D2BD00D77017 /* PiktochartTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED25401C61D2BD00D77017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCED25491C61D2BD00D77017 /* PiktochartTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCED253B1C61D2BD00D77017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCED251C1C61D2BC00D77017 /* PiktochartTest */;
+			targetProxy = DCED253A1C61D2BD00D77017 /* PBXContainerItemProxy */;
+		};
+		DCED25461C61D2BD00D77017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCED251C1C61D2BC00D77017 /* PiktochartTest */;
+			targetProxy = DCED25451C61D2BD00D77017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCED25291C61D2BD00D77017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCED252A1C61D2BD00D77017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCED25311C61D2BD00D77017 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCED25321C61D2BD00D77017 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCED254B1C61D2BD00D77017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCED254C1C61D2BD00D77017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCED254E1C61D2BD00D77017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PiktochartTest/PiktochartTest-Prefix.pch";
+				INFOPLIST_FILE = PiktochartTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gagan.PiktochartTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DCED254F1C61D2BD00D77017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PiktochartTest/PiktochartTest-Prefix.pch";
+				INFOPLIST_FILE = PiktochartTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gagan.PiktochartTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		DCED25511C61D2BD00D77017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PiktochartTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gagan.PiktochartTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiktochartTest.app/PiktochartTest";
+			};
+			name = Debug;
+		};
+		DCED25521C61D2BD00D77017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PiktochartTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gagan.PiktochartTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiktochartTest.app/PiktochartTest";
+			};
+			name = Release;
+		};
+		DCED25541C61D2BD00D77017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PiktochartTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gagan.PiktochartTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PiktochartTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCED25551C61D2BD00D77017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PiktochartTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gagan.PiktochartTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PiktochartTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCED25181C61D2BC00D77017 /* Build configuration list for PBXProject "PiktochartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED254B1C61D2BD00D77017 /* Debug */,
+				DCED254C1C61D2BD00D77017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCED254D1C61D2BD00D77017 /* Build configuration list for PBXNativeTarget "PiktochartTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED254E1C61D2BD00D77017 /* Debug */,
+				DCED254F1C61D2BD00D77017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCED25501C61D2BD00D77017 /* Build configuration list for PBXNativeTarget "PiktochartTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED25511C61D2BD00D77017 /* Debug */,
+				DCED25521C61D2BD00D77017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCED25531C61D2BD00D77017 /* Build configuration list for PBXNativeTarget "PiktochartTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED25541C61D2BD00D77017 /* Debug */,
+				DCED25551C61D2BD00D77017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCED252C1C61D2BD00D77017 /* PiktochartTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCED252D1C61D2BD00D77017 /* PiktochartTest.xcdatamodel */,
+			);
+			currentVersion = DCED252D1C61D2BD00D77017 /* PiktochartTest.xcdatamodel */;
+			path = PiktochartTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCED25151C61D2BC00D77017 /* Project object */;
+}
